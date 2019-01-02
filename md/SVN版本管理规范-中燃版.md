@@ -88,6 +88,8 @@ release分支通过测试后，合并到master分支中，继续在master分支�
 
 ![提交代码](https://raw.githubusercontent.com/loaderlin/CodeConference/master/img/svn-log.png)
 
---- 
+参考文档
 
-未完待续
+[TortoiseSVN打分支、合并分支、切换分支](https://blog.csdn.net/justry_deng/article/details/82259470)
+
+[SVN（TortoiseSVN）详细教程（四）--创建分支合并相互操作](https://blog.csdn.net/u013354805/article/details/48491427)
