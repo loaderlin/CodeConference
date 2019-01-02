@@ -48,6 +48,8 @@ release分支通过测试后，合并到master分支中，继续在master分支�
 
 ### TortoiseSVN操作流程
 
+#### 创建分支
+
 在已有项目master分支中，创建release分支
 
 ![创建新分支](https://raw.githubusercontent.com/loaderlin/CodeConference/master/img/create_branch.png)
@@ -59,6 +61,32 @@ release分支通过测试后，合并到master分支中，继续在master分支�
 ![切换分支](https://raw.githubusercontent.com/loaderlin/CodeConference/master/img/checkout_release.png)
 
 若发布后一段时间（这次发布起至下次发布止）出现错误，则在该分支中做修复。最后合并到master分支
+
+#### 合并分支 
+
+选择目标分支合并到当前所处分支。
+
+在下次发布之前，测试上一次发布的所有功能和修复所有Bug后，将release分支的代码合并到master分支中。
+
+切换到master分支中
+
+![合并分支](https://raw.githubusercontent.com/loaderlin/CodeConference/master/img/merge-branch.png)
+
+下一步
+
+![下一步合并分支](https://raw.githubusercontent.com/loaderlin/CodeConference/master/img/next-merge-branch.png)
+
+选择目标分支
+
+![目标分支](https://raw.githubusercontent.com/loaderlin/CodeConference/master/img/target-branch.png)
+
+测试合并是否存在冲突(没有冲突选择合并【Merge按钮】)
+
+![测试合并](https://raw.githubusercontent.com/loaderlin/CodeConference/master/img/test-merge.png)
+
+再将合并过来的代码提交到master分支上
+
+![提交代码](https://raw.githubusercontent.com/loaderlin/CodeConference/master/img/svn-log.png)
 
 --- 
 
