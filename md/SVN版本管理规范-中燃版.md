@@ -84,7 +84,15 @@ release分支通过测试后，合并到master分支中，继续在master分支�
 
 ![测试合并](https://raw.githubusercontent.com/loaderlin/CodeConference/master/img/test-merge.png)
 
-再将合并过来的代码提交到master分支上
+- 有冲突的情况下，
+
+![合并时有冲突](https://raw.githubusercontent.com/loaderlin/CodeConference/master/img/merge-conflicts.png)
+
+采用VS Code编辑器打开冲突文件
+
+![手动修改传统](https://raw.githubusercontent.com/loaderlin/CodeConference/master/img/text-merge-conflicts.png)
+
+- 没有冲突的情况下，再将合并过来的代码提交到master分支上
 
 ![提交代码](https://raw.githubusercontent.com/loaderlin/CodeConference/master/img/svn-log.png)
 
