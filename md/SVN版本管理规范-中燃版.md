@@ -40,11 +40,17 @@
 
 中燃项目：每周二下午，下班前将上周修复的BUG和已完成的功能清单所有代码打包发布到UAT测试服务器上，让客户测试。这时就是从master分支创建并切换release分支上，以日期命名。
 
-周三中午发布代码到生产服务器上。如果这时出现了上周已完成的功能出现错误(或已修复的BUG通过了自测但用户测试还是复现错误)，这时必须在release分支中修复，修复完成后，合并到master分支，并发布到生产服务器。
+周三中午发布代码到生产服务器上。出现以下情况时使用到该分支
 
-release分支通过测试后，合并到master分支中，继续在master分支上开发
+- 如果这时出现了上周已完成的功能出现错误
+- 已修复的BUG通过了自测但用户测试还是复现错误
+- 客户要求的紧急需求，完成后立即发UAT服务器上进行测试
 
-这样既保证了在master分支上开发新功能，又不影响release分支版本的发布
+这时代码必须在release分支中完成，并再次发布。
+
+release分支通过测试后，合并到master分支中（发布到生产数据库中）。
+
+**这样既保证了在master分支上开发新功能，又不影响release分支版本的发布**
 
 ### TortoiseSVN操作流程
 
@@ -101,3 +107,11 @@ release分支通过测试后，合并到master分支中，继续在master分支�
 [TortoiseSVN打分支、合并分支、切换分支](https://blog.csdn.net/justry_deng/article/details/82259470)
 
 [SVN（TortoiseSVN）详细教程（四）--创建分支合并相互操作](https://blog.csdn.net/u013354805/article/details/48491427)
+
+### IDEA SVN操作流程
+
+待Tom完善
+
+### Eclipse SVN操作流程
+
+待Irving完善
